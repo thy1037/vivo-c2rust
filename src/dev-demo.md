@@ -4,9 +4,19 @@
 
 ## 主机环境
 * Windows10_x86-64
-* WSL2
+* **WSL2**
 * Debian
 * Ubuntu 20.04
+
+需要注意，如果在 Windows + WSL 的环境，一定要用 **WSL2**，WSL2 包含完整的 Linux 内核，如果是 WSL（WSL1），部分系统调用不识别，例程无法编译。
+
+WSL2 安装方式：<https://learn.microsoft.com/zh-cn/windows/wsl/install-manual>
+
+比较 WSL1 和 WSL2：<https://learn.microsoft.com/zh-cn/windows/wsl/compare-versions>
+
+> **注意：**
+>
+> 根据官方开发文档上的说明，最终测试会放在 Ubuntu 20.04 上进行，所以建议使用该版本，避免不必要的问题
 
 ## 编译例程
 
@@ -14,7 +24,7 @@
 
 参考官网教程 <https://www.rust-lang.org/zh-CN/tools/install>
 
-> TODO
+*可以更换 Cargo 源，提高开发效率。*
 
 ### 1. 下载
 

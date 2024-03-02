@@ -1,0 +1,9 @@
+[book]
+authors = ["thy1037"]
+language = "zh"
+multilingual = false
+src = "src"
+
+[output.html]
+git-repository-url = "https://github.com/thy1037/vivo-c2rust"
+git-repository-icon = "fa-github"

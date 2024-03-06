@@ -7,3 +7,4 @@
 # 代码查看
 - [开发例程](./review-demo.md)
 - [其它模型](./review-glm.md)
+- [micru](./review-micru.md)

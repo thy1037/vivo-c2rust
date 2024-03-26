@@ -12,4 +12,6 @@
 # 作品
 - [文档要求](./specification.md)
 - [作品文档](./entries.md)
+- [测例转译结果](./test_cases.md)
+- [prompts](./prompts.md)
 
